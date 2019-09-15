@@ -8,7 +8,7 @@
     <header>
       <nav>
         <a>
-          <img src="img/logo-sedona.svg" width="100" height="100" alt="Логотип Sedona">
+          <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Sedona">
         </a>  
 
         <ul>
@@ -23,6 +23,7 @@
     <main>
       <div>
          <!-- Тут фоновые картинки страницы через CSS-->
+         <img src="img/intro-welcome.svg" width="458" height="352" alt="Добро пожаловать">
       </div>
         <h2>Седона- небольшой городок в Аризоне, заслуживающий большего!</h2>  
 
@@ -45,26 +46,28 @@
           <p>
             <label for="enter-date">Дата заезда:</label>
             <input id="enter-date" type="text" name="enterdate" value="" placeholder="24 апреля 2017">
-            <button type="button">Календарь</button>
+            <button type="button" aria-label="Календарь"></button>
           </p>
           
           <p>
             <label for="exit-date">Дата выезда:</label>
             <input id="exit-date" type="text" name="exitdate" value="" placeholder="4 июля 2017">
-            <button type="button">Календарь</button>
+            <button type="button" aria-label="Календарь"></button>
           </p>
           <p>
             <label for="adults">Взрослые:</label>
-            <button type="button">Меньше</button>
+            <button type="button" aria-label="Меньше"></button>
             <input id="adults" type="text" name="adults" value="" placeholder="3">
-            <button type="button">Больше</button>
+            <button type="button" aria-label="Больше"></button>
           </p>
           <p>
             <label for="children">Дети</label>
-            <button type="button">Меньше</button>
+            <button type="button" aria-label="Меньше"></button>
             <input id="children" type="text" name="children" value="" placeholder="0">
-            <button type="button">Больше</button>
+            <button type="button" aria-label="Больше"></button>
           </p>
+          <button type="submit">Найти</button>
+        </form>    
       </section>
 
     </main>
